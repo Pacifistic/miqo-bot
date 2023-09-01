@@ -144,7 +144,6 @@ class ConversationsWrapper:
         minutes = 10
         seconds = minutes * 60
         currentTime = datetime.now()
-        self.printAll()
 
         for i in list(self.convos):
             convo = self.convos[i]
