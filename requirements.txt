@@ -1,2 +1,3 @@
 hikari-lightbulb
 openai
+apscheduler
