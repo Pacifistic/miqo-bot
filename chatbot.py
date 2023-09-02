@@ -161,5 +161,6 @@ convos = ConversationsWrapper()
 scheduler = BackgroundScheduler()
 scheduler.add_job(id='check reset', func=convos.checkTime, trigger='interval', minutes=1)
 scheduler.start()
+logging.getLogger('apscheduler.executors.default').setLevel(logging.WARNING)
 
 bot.run()
